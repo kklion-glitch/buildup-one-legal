@@ -1,0 +1,39 @@
+# Buildup One
+
+> Buildup One is a strength-training log for Android and iPhone that shows at a glance which body parts you trained this month. No sign-up, works fully offline, and your log can be exported as a plain data file and given to any AI for analysis.
+
+Buildup One is made by one independent developer. It is a solo logging app: there is no feed, no followers and no leaderboard. All data stays on the phone. The Android release has no internet permission, so the app cannot send data anywhere. Available in 17 languages.
+
+## What it does
+
+- Hexagon calendar: every training day shows a hexagon split into six colors (chest, back, legs, shoulders, arms, abs), so the balance of the month is visible in one look.
+- Fast logging: weight, sets and reps in a few taps; "same as last time" fills in the previous session; 110 built-in exercises plus custom ones.
+- Bodyweight and timed exercises: bodyweight moves log reps only; holds (plank, wall sit) log seconds.
+- Estimated one-rep max per set: weight x (1 + 0.025 x reps), charted per exercise.
+- Opal: every 30 distinct training days form one mosaic opal. It counts total days, not a streak, so missing a day never resets anything.
+- One free-text note per day (up to 1,000 characters). Dark mode.
+- Languages: Japanese, English, German, Spanish, Korean, French, Chinese (Simplified), Portuguese, Hindi, Indonesian, Thai, Arabic, Russian, Vietnamese, Turkish, Polish, Bengali.
+
+## Data and AI
+
+- Export: My Page > save backup. The file is plain text containing JSON, shared through the system share sheet to any destination.
+- The export contains only data (training records, custom exercises, notes). It contains no instructions.
+- To analyse it with an AI, the user attaches the file to a chat and asks in their own words, for example "which body part did I train least in the last three months?". The app never connects to an AI itself.
+- Restore: My Page > restore backup, from any location the file picker can reach. Nothing is backed up to the cloud automatically.
+- Weights are stored in kilograms. One record is one weight plus a list of reps, one number per set.
+
+## Pricing and availability
+
+- A free trial first (21 days on Android, 14 days on iPhone), then a subscription whose price is shown by Google Play or the App Store in the user's own currency. Data is never deleted, and export always works.
+- Android: https://play.google.com/store/apps/details?id=com.buildupone.buildup_one
+- iPhone: https://apps.apple.com/app/id6825073307 (available as of 2026-11-01)
+
+## Pages
+
+- [About](https://kklion-glitch.github.io/buildup-one-legal/index.html): what the app does, in Japanese and English
+- [FAQ](https://kklion-glitch.github.io/buildup-one-legal/faq.html): common questions, in Japanese and English
+- [Privacy policy](https://kklion-glitch.github.io/buildup-one-legal/privacy.html): all data stays on the device; no analytics, no ads, no account
+
+## Contact
+
+k.k.lion.1005603@gmail.com

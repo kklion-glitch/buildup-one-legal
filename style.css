@@ -1,0 +1,22 @@
+:root{--bg:#FBFAF7;--surface:#FFFFFF;--ink:#26251F;--dim:#6B6862;--hair:#E6E1D6;--accent:#1E2A38;--accent-ink:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--bg:#15171A;--surface:#1D2024;--ink:#E7E3D8;--dim:#9C978B;--hair:#2C2F34;--accent:#C7D0DC;--accent-ink:#15171A}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.75 "Noto Sans JP",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1rem 4rem}
+h1{font-size:1.75rem;line-height:1.35;margin:0 0 .5rem}
+h2{font-size:1.2rem;margin:2.5rem 0 .75rem;padding-top:1.25rem;border-top:1px solid var(--hair)}
+h3{font-size:1rem;margin:1.5rem 0 .25rem}
+p,li{max-width:40rem}
+.lead{font-size:1.1rem;color:var(--ink)}
+.meta{color:var(--dim);font-size:.9rem}
+a{color:var(--accent);text-underline-offset:.2em}
+ul{padding-left:1.25rem}
+.stores{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.25rem 0}
+.stores a{display:inline-block;padding:.6rem 1rem;border:1px solid var(--accent);border-radius:6px;background:var(--accent);color:var(--accent-ink);text-decoration:none}
+.stores a:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+nav{display:flex;flex-wrap:wrap;gap:1rem;margin:0 0 2rem;font-size:.9rem}
+dl{margin:0}
+dt{font-weight:700;margin-top:1.25rem}
+dd{margin:.15rem 0 0}
+footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--hair);color:var(--dim);font-size:.9rem}
